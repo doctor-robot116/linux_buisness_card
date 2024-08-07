@@ -1,10 +1,11 @@
 # linux_buisness_card
+===============================
 
 
 **Все изменения от корня git (businesscard-linux)**  
 файл ./config.in  
 закоментировать строку  
-# source "$BR2_EXTERNAL_BUSINESSCARD_PATH/package/fortune-mod/Config.in"  
+#source "$BR2_EXTERNAL_BUSINESSCARD_PATH/package/fortune-mod/Config.in"  
 в файле ./configs/thirtythreeforty_businesscard_defconfig  
 Строку BR2_LINUX_KERNEL_CUSTOM_REPO_URL="git://github.com/thirtythreeforty/linux.git"    
 заменить на  
